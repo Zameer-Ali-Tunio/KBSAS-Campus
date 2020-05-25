@@ -1,0 +1,85 @@
+
+body{
+	width: 990px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background:url("1.jpg") no-repeat;
+	background:cover;
+	}
+	/*class for haeding*/
+	.h{
+		background:linear-gradient(20deg,green,yellow,blue);
+		text-align: center;
+		color: black;
+		border-radius:40px 40px 0px 0px;
+		width:690px;
+		height: 50px;}
+/* class for remove margin and padding in header*/
+/* menu*/
+ul{
+	
+	margin: 0px;
+	padding:0px;
+
+}
+.ul{
+	width: 990px;
+	height: 40px;
+}
+ul li{
+	list-style: none;
+	float: left;
+	width: 162px;
+	height: 40px;
+	background:linear-gradient(50deg,skyblue,red,black);
+	margin: 1.5px;
+	padding:0px;
+	text-align: center;
+	opacity: 0.9;
+
+	
+	
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	font-size: 20px;
+	padding:10px;
+
+	}
+ul li a:hover{
+					background: cyan;
+					color: black;
+					font-size: 23px;
+				}
+				ul li ul li{
+					display: none;
+				}
+				ul li:hover ul li{
+					display: block;
+				}
+/*end of menu*/
+/* class for news tr*/
+.tr{
+	height: 50px;
+	width:992px;
+	color: white;
+	font-size: 20px;}
+/* end of class for news tr*/
+/* about page content class*/
+.con{
+	padding: 20px;
+	background-color: white;
+	opacity: 0.8;
+}
+/*gallery page img class*/
+.img:hover{
+	opacity: 0.8;
+	
+	width: 240px;
+
+}
+
+
